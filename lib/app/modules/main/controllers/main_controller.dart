@@ -154,13 +154,9 @@ class MainController extends GetxController {
   void onInit() {
     scrollController = ScrollController()
       ..addListener(() async {
-        print(scrollController.offset);
-        print(scrollController.position.maxScrollExtent);
         if (scrollController.offset >
             scrollController.position.maxScrollExtent - 100) {
           if (gettingData.value == false && atEnd.value == false) {
-            print(pageindex);
-
             pageindex++;
             getTasks();
           }
@@ -168,15 +164,5 @@ class MainController extends GetxController {
       });
     getTasks();
     super.onInit();
-  }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
   }
 }
