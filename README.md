@@ -2,9 +2,7 @@
 
 Todo app for Baraa Nwilati Quiz
 
-## Getting Started
-
-Features in this app :
+## Features in this app
 
 - Fully functional Auth Screan
 - API Todos from DummyJson
@@ -14,4 +12,5 @@ Features in this app :
 - Getx State managment
 - Saperated page for local todos
 - Shared preferances to store offline todos
+- Responsive Design
 
