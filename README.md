@@ -1,16 +1,17 @@
 # baraanwilati
 
-A new Flutter project.
+Todo app for Baraa Nwilati Quiz
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Features in this app :
 
-A few resources to get you started if this is your first Flutter project:
+- Fully functional Auth Screan
+- API Todos from DummyJson
+- CRUD operations , P.S - (you can delete a task with long press..)
+- fully functional pagination , P.S - (The App will get more tasks on scroll)
+- Lottie Animations To give the app more liveliness
+- Getx State managment
+- Saperated page for local todos
+- Shared preferances to store offline todos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
